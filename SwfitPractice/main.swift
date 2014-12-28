@@ -129,7 +129,15 @@ func evenStudying(numbers:Int...) -> [Int]{
 //var shape = NamedShape(name: "Jimi", sides:6)
 //println(shape.simpleDescription())
 
-var square = Square(name: "Tom", sideLength: 4.6)
-println(square.simpleDescription())
+//var square = Square(name: "Tom", sideLength: 4.6)
+//println(square.area())
+//println(square.simpleDescription())
+
+//var circle = Circle(name: "Henry", radius: 5.2)
+//println(circle.area())
+
+
+
+
 
 

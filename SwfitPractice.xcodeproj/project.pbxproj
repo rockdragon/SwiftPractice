@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AF281C861A45C8F6002BF5F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF281C851A45C8F6002BF5F6 /* main.swift */; };
-		AF82C5391A4FB6FD00C132D6 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82C5381A4FB6FD00C132D6 /* Shape.swift */; };
+		AF51237A1A5003AE00B8D775 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5123791A5003AE00B8D775 /* Circle.swift */; };
+		AF51237C1A50044100B8D775 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51237B1A50044100B8D775 /* NamedShape.swift */; };
 		AF82C53B1A4FFCFD00C132D6 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82C53A1A4FFCFD00C132D6 /* Square.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +28,8 @@
 /* Begin PBXFileReference section */
 		AF281C821A45C8F6002BF5F6 /* SwfitPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwfitPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF281C851A45C8F6002BF5F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AF82C5381A4FB6FD00C132D6 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		AF5123791A5003AE00B8D775 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		AF51237B1A50044100B8D775 /* NamedShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
 		AF82C53A1A4FFCFD00C132D6 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,9 +63,10 @@
 		AF281C841A45C8F6002BF5F6 /* SwfitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AF51237B1A50044100B8D775 /* NamedShape.swift */,
 				AF281C851A45C8F6002BF5F6 /* main.swift */,
-				AF82C5381A4FB6FD00C132D6 /* Shape.swift */,
 				AF82C53A1A4FFCFD00C132D6 /* Square.swift */,
+				AF5123791A5003AE00B8D775 /* Circle.swift */,
 			);
 			path = SwfitPractice;
 			sourceTree = "<group>";
@@ -125,8 +128,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF82C53B1A4FFCFD00C132D6 /* Square.swift in Sources */,
+				AF51237C1A50044100B8D775 /* NamedShape.swift in Sources */,
+				AF51237A1A5003AE00B8D775 /* Circle.swift in Sources */,
 				AF281C861A45C8F6002BF5F6 /* main.swift in Sources */,
-				AF82C5391A4FB6FD00C132D6 /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
