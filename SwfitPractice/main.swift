@@ -136,6 +136,25 @@ func evenStudying(numbers:Int...) -> [Int]{
 //var circle = Circle(name: "Henry", radius: 5.2)
 //println(circle.area())
 
+//var dog = CrazyDog(name: "MoDou")
+//println("A dog named \(dog.Name) was barking: \(dog.bark())")
+
+//var str:String? = ""
+//if let const = str{
+//    println("const entered.")
+//}
+
+//let rank = Rank.Five
+//let rank2 = Rank.Ten
+//println(rank.compare(rank2))
+//let rank3 = Rank(rawValue: 3)
+//rank3?.print()
+
+let hearts = Suit.Hearts
+hearts.print()
+
+
+
 
 
 

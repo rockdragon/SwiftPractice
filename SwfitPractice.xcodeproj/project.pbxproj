@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AF281C861A45C8F6002BF5F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF281C851A45C8F6002BF5F6 /* main.swift */; };
-		AF51237A1A5003AE00B8D775 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5123791A5003AE00B8D775 /* Circle.swift */; };
-		AF51237C1A50044100B8D775 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51237B1A50044100B8D775 /* NamedShape.swift */; };
-		AF82C53B1A4FFCFD00C132D6 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF82C53A1A4FFCFD00C132D6 /* Square.swift */; };
+		AF51238F1A50322B00B8D775 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5123891A50322B00B8D775 /* Circle.swift */; };
+		AF5123901A50322B00B8D775 /* CrazyDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51238A1A50322B00B8D775 /* CrazyDog.swift */; };
+		AF5123911A50322B00B8D775 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51238B1A50322B00B8D775 /* NamedShape.swift */; };
+		AF5123921A50322B00B8D775 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51238C1A50322B00B8D775 /* Square.swift */; };
+		AF5123931A50322B00B8D775 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51238E1A50322B00B8D775 /* Rank.swift */; };
+		AF5123951A50326100B8D775 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5123941A50326100B8D775 /* Suit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +31,12 @@
 /* Begin PBXFileReference section */
 		AF281C821A45C8F6002BF5F6 /* SwfitPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwfitPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF281C851A45C8F6002BF5F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AF5123791A5003AE00B8D775 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
-		AF51237B1A50044100B8D775 /* NamedShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
-		AF82C53A1A4FFCFD00C132D6 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		AF5123891A50322B00B8D775 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		AF51238A1A50322B00B8D775 /* CrazyDog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrazyDog.swift; sourceTree = "<group>"; };
+		AF51238B1A50322B00B8D775 /* NamedShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
+		AF51238C1A50322B00B8D775 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		AF51238E1A50322B00B8D775 /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		AF5123941A50326100B8D775 /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +69,31 @@
 		AF281C841A45C8F6002BF5F6 /* SwfitPractice */ = {
 			isa = PBXGroup;
 			children = (
-				AF51237B1A50044100B8D775 /* NamedShape.swift */,
+				AF5123881A50322B00B8D775 /* Classes */,
+				AF51238D1A50322B00B8D775 /* Enums */,
 				AF281C851A45C8F6002BF5F6 /* main.swift */,
-				AF82C53A1A4FFCFD00C132D6 /* Square.swift */,
-				AF5123791A5003AE00B8D775 /* Circle.swift */,
 			);
 			path = SwfitPractice;
+			sourceTree = "<group>";
+		};
+		AF5123881A50322B00B8D775 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF5123891A50322B00B8D775 /* Circle.swift */,
+				AF51238A1A50322B00B8D775 /* CrazyDog.swift */,
+				AF51238B1A50322B00B8D775 /* NamedShape.swift */,
+				AF51238C1A50322B00B8D775 /* Square.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF51238D1A50322B00B8D775 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AF5123941A50326100B8D775 /* Suit.swift */,
+				AF51238E1A50322B00B8D775 /* Rank.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,10 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF82C53B1A4FFCFD00C132D6 /* Square.swift in Sources */,
-				AF51237C1A50044100B8D775 /* NamedShape.swift in Sources */,
-				AF51237A1A5003AE00B8D775 /* Circle.swift in Sources */,
+				AF5123921A50322B00B8D775 /* Square.swift in Sources */,
 				AF281C861A45C8F6002BF5F6 /* main.swift in Sources */,
+				AF5123911A50322B00B8D775 /* NamedShape.swift in Sources */,
+				AF5123931A50322B00B8D775 /* Rank.swift in Sources */,
+				AF51238F1A50322B00B8D775 /* Circle.swift in Sources */,
+				AF5123901A50322B00B8D775 /* CrazyDog.swift in Sources */,
+				AF5123951A50326100B8D775 /* Suit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
