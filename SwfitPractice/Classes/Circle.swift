@@ -10,17 +10,21 @@ class Circle: NamedShape {
     let PI = 3.1415926
     var radius: Double
     
-    init(name: String, radius: Double) {
+    init(name: String,
+        radius: Double) {
         self.radius = radius
         super.init(name: name, sides: 1)
     }
     
-    func area() -> Double {
+    func area() ->
+        Double {
         return PI * radius * radius
     }
     
-    override func simpleDescription() -> String {
-        return "A circle named \(name) with \(numberOfSides) sides."
+    override func simpleDescription()
+        -> String {
+        return "A circle named \(name) "
+            + "with \(numberOfSides) sides."
     }
     
 }

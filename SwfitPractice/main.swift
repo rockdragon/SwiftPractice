@@ -150,9 +150,11 @@ func evenStudying(numbers:Int...) -> [Int]{
 //let rank3 = Rank(rawValue: 3)
 //rank3?.print()
 
-let hearts = Suit.Hearts
-hearts.print()
+//let hearts = Suit.Hearts
+//hearts.print()
 
+let threeOfSpades = Card(rank: Rank.Three, suit: Suit.Spades)
+threeOfSpades.print()
 
 
 

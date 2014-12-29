@@ -14,6 +14,7 @@
 		AF5123921A50322B00B8D775 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51238C1A50322B00B8D775 /* Square.swift */; };
 		AF5123931A50322B00B8D775 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51238E1A50322B00B8D775 /* Rank.swift */; };
 		AF5123951A50326100B8D775 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5123941A50326100B8D775 /* Suit.swift */; };
+		AFA8D2141A517AA00050AF80 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8D2131A517AA00050AF80 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		AF51238C1A50322B00B8D775 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		AF51238E1A50322B00B8D775 /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		AF5123941A50326100B8D775 /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		AFA8D2131A517AA00050AF80 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		AF281C841A45C8F6002BF5F6 /* SwfitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AFA8D2121A517AA00050AF80 /* Structs */,
 				AF5123881A50322B00B8D775 /* Classes */,
 				AF51238D1A50322B00B8D775 /* Enums */,
 				AF281C851A45C8F6002BF5F6 /* main.swift */,
@@ -94,6 +97,14 @@
 				AF51238E1A50322B00B8D775 /* Rank.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		AFA8D2121A517AA00050AF80 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8D2131A517AA00050AF80 /* Card.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				AF51238F1A50322B00B8D775 /* Circle.swift in Sources */,
 				AF5123901A50322B00B8D775 /* CrazyDog.swift in Sources */,
 				AF5123951A50326100B8D775 /* Suit.swift in Sources */,
+				AFA8D2141A517AA00050AF80 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
