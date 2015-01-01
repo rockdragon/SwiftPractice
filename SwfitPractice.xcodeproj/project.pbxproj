@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF073E2D1A543AC60019BEA9 /* ExampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF073E2C1A543AC60019BEA9 /* ExampleProtocol.swift */; };
+		AF073E2F1A543D700019BEA9 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF073E2E1A543D700019BEA9 /* SimpleClass.swift */; };
 		AF281C861A45C8F6002BF5F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF281C851A45C8F6002BF5F6 /* main.swift */; };
 		AF51238F1A50322B00B8D775 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5123891A50322B00B8D775 /* Circle.swift */; };
 		AF5123901A50322B00B8D775 /* CrazyDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51238A1A50322B00B8D775 /* CrazyDog.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF073E2C1A543AC60019BEA9 /* ExampleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProtocol.swift; sourceTree = "<group>"; };
+		AF073E2E1A543D700019BEA9 /* SimpleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
 		AF281C821A45C8F6002BF5F6 /* SwfitPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwfitPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF281C851A45C8F6002BF5F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AF5123891A50322B00B8D775 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
@@ -52,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF073E2B1A543AC60019BEA9 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				AF073E2C1A543AC60019BEA9 /* ExampleProtocol.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
 		AF281C791A45C8F6002BF5F6 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +83,7 @@
 		AF281C841A45C8F6002BF5F6 /* SwfitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AF073E2B1A543AC60019BEA9 /* Interfaces */,
 				AFA8D2121A517AA00050AF80 /* Structs */,
 				AF5123881A50322B00B8D775 /* Classes */,
 				AF51238D1A50322B00B8D775 /* Enums */,
@@ -82,6 +95,7 @@
 		AF5123881A50322B00B8D775 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AF073E2E1A543D700019BEA9 /* SimpleClass.swift */,
 				AF5123891A50322B00B8D775 /* Circle.swift */,
 				AF51238A1A50322B00B8D775 /* CrazyDog.swift */,
 				AF51238B1A50322B00B8D775 /* NamedShape.swift */,
@@ -167,7 +181,9 @@
 				AF281C861A45C8F6002BF5F6 /* main.swift in Sources */,
 				AF5123911A50322B00B8D775 /* NamedShape.swift in Sources */,
 				AF5123931A50322B00B8D775 /* Rank.swift in Sources */,
+				AF073E2F1A543D700019BEA9 /* SimpleClass.swift in Sources */,
 				AF51238F1A50322B00B8D775 /* Circle.swift in Sources */,
+				AF073E2D1A543AC60019BEA9 /* ExampleProtocol.swift in Sources */,
 				AF5123901A50322B00B8D775 /* CrazyDog.swift in Sources */,
 				AF5123951A50326100B8D775 /* Suit.swift in Sources */,
 				AFA8D2141A517AA00050AF80 /* Card.swift in Sources */,

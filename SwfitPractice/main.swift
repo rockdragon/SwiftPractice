@@ -153,9 +153,11 @@ func evenStudying(numbers:Int...) -> [Int]{
 //let hearts = Suit.Hearts
 //hearts.print()
 
-let threeOfSpades = Card(rank: Rank.Three, suit: Suit.Spades)
-threeOfSpades.print()
+//let threeOfSpades = Card(rank: Rank.Three, suit: Suit.Spades)
+//threeOfSpades.print()
 
+var poker = Card.createPoker()
+Card.printPoker(poker)
 
 
 

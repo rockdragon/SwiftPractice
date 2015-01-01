@@ -1,5 +1,6 @@
-enum Suit {
-    case Spades, Hearts, Diamonds, Clubs
+enum Suit: Int {
+    case Spades = 1
+    case Hearts, Diamonds, Clubs
     func simpleDescription() -> String {
         switch self {
         case .Spades:
